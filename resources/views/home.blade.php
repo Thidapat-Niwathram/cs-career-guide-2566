@@ -15,18 +15,18 @@
     transform: translate(-50%, -50%);
     }
     .background-image-container {
-    background-image: url('image/cover.jpg'); /* Replace with the path to your image */
+    background-image: url('image/cover.jpg'); 
     background-size: cover;
     background-position: center;
-    color: white; /* Set text color to contrast with the image */
-    padding: 5rem; /* Adjust padding as needed */
+    color: white;
+    padding: 5rem; 
     height: 300px;
   }
   .card{
     padding: 2rem;
     width: 18rem;
     /* margin-left: 5rem; */
-    margin: 50px; /* Adjust the margin as needed for spacing */
+    margin: 50px; 
   }
  .row{
   padding-top: -2rem;
@@ -35,13 +35,13 @@
   
   </head>
 <body>
-  
+  <!-- nav -->
 <nav class="navbar navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
       <img src="image/cplogo2.png" alt="" width="250" height="70">
     </a>
-    <form class="d-flex ms-auto">
+    <form class="d-flex ms-auto" action="{{ route('login') }}">
       <button class="btn btn-outline-light" type="submit">Login</button>
     </form>
   </div>
@@ -64,13 +64,13 @@
     <div class="card">
       <img src="image/cplogo2.png" class="card-img-top" alt="..." >
       <div class="card-body">
-        <a href="url">Full Stack Developer</a>
+        <a href="url">Software Engineer</a>
       </div>
     </div>
     <div class="card">
       <img src="image/cplogo2.png" class="card-img-top" alt="..." >
       <div class="card-body">
-        <a href="url">Full Stack Developer</a>
+        <a href="url" style="text-align: center;">Data Analyst</a>
       </div>
     </div>
   </div>
