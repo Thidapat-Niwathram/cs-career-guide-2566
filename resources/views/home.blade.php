@@ -15,24 +15,29 @@
     transform: translate(-50%, -50%);
     }
     .background-image-container {
-    background-image: url('image/cover.jpg'); 
+    background-image: url('image/cover.jpg');
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 5rem; 
+    padding: 5rem;
     height: 300px;
   }
   .card{
     padding: 2rem;
     width: 18rem;
     /* margin-left: 5rem; */
-    margin: 50px; 
+    margin: 50px;
   }
  .row{
   padding-top: -2rem;
  }
+ .btn{
+     margin-top: 2rem;
+margin-right: 3rem;
+     padding-top: -3rem;
+ }
 </style>
-  
+
   </head>
 <body>
   <!-- nav -->
@@ -51,8 +56,17 @@
   <h1 class="text-cover">College of Computing Khon Kaen University</h1>
 </div>
 
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col">
+              <h2 style="padding-top: 2rem; padding-left:2rem">Population Career</h2>
+          </div>
+          <div class="col  col-4 align-self-center text-end">
+              <a href="{{ url('qt') }}" class="btn btn-primary btn-lg" role="button">Find Your Career</a>
+          </div>
+      </div>
+  </div>
 
-<h2 class="container-fluid" style="padding-top: 2rem; padding-left:2rem">Population Career</h2>
 <div class="container">
   <div class="row justify-content-center">
     <div class="card">

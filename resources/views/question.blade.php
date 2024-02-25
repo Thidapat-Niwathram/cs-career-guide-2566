@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,11 +7,12 @@
     <title>test</title>
     <link href="stylesheet" href="../css/home.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <style>
     td, th {
         border: 1px solid #ccc;
         padding: 10px;
-        
+
     }
     table {
     border-collapse: collapse;
@@ -25,7 +27,7 @@
     text-align: left; /* Center align the text horizontally */
     vertical-align: middle; /* Center align the text vertically */
   }
- 
+
   input[type="radio"] {
     width: 20px; /* Set the width */
     height: 20px; /* Set the height */
@@ -33,17 +35,22 @@
   .text-center{
     width: 150px;
   }
+  .back{
+      margin-left: 1rem;
+  }
     </style>
 </head>
 <body>
-  <nav class="navbar navbar-dark bg-dark">
-    <div class="container-fluid justify-content-end">
-      <a class="navbar-brand" href="#">
-        <img src="image/cplogo2.png" alt="" width="250" height="70">
-      </a>
+<nav class="navbar navbar-dark bg-dark">
+    <i  onclick="window.history.back()" class="material-icons">arrow_back</i>
+
+{{--    <img id="back" onclick="window.history.back()" src="images/left-arrow.png" alt="">--}}
+        <a class="navbar-brand" href="#">
+            <img src="image/cplogo2.png" alt="" width="250" height="70">
+        </a>
     </div>
-  </div>
-  </nav>
+</nav>
+
 
   <h2 class="container-fluid" style="padding-top: 2rem; padding-left:3rem">คำถามด้านบุคลิกภาพ</h2>
   <p class="container" style="text-indent: 3rem; font-size: 20px; margin-top: 20px;">แบบทดสอบมี 35 ข้อ ให้อ่านข้อความในด้านซ้ายมือและให้เลือกคำตอบ ( 1 – 3 ) โดยทำเครื่องหมาย ให้ตรงกับบุคลิกลักษณะนิสัยในการทำงานของท่านมากที่สุด เพียงคำตอบเดียว</p>

@@ -25,6 +25,32 @@ Route::get('/qt', function () {
     return view('question');
 })->name('question');
 
+Route::get('/qtstd', function () {
+    return view('student/questionstd');
+})->name('questionstd');
+
 Route::get('/career', function () {
-    return view('careerdetail');
+    return view('student/careerdetail');
 })->name('careerdetail');
+//Route::get('/menu', function () {
+//    return view('student/menustudent');
+//})->name('menustudent');
+Route::get('/homestd', function () {
+    return view('student/homestudent');
+})->name('homestudent');
+
+Route::get('/homestd1', function () {
+    return view('student\homstudent1');
+})->name('homestudent1');
+
+Route::get('/skillstd', function () {
+    return view('student\skillstudent');
+})->name('skillstudent');
+
+Route::get('/editinfo', function () {
+    return view('student\editinfo');
+})->name('editinfo');
+
+Route::get('/grade', function () {
+    return view('student\grade');
+})->name('grade');
