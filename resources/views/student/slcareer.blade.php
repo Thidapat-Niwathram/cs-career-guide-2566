@@ -25,7 +25,12 @@
             <td class="text-center">1</td>
 
         </tr>
-
+    </table>
+    <div class="d-flex justify-content-between">
+        <button class="btn btn-primary" type="button" onclick="window.location.href='{{ url('homestd1') }}'">Back</button>
+        <div></div>
+        <button class="btn btn-primary" type="button" onclick="window.location.href='{{ url('grade') }}'">Course guide</button>
+    </div>
 
 
 @endsection
