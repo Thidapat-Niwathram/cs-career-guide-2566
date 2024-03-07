@@ -8,34 +8,63 @@
 
 
     <style>
-      
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
         }
-      }
-      .form-floating{
-        border-radius: 10%;
-        margin: 4%;
-      }
-      .form-signin{
-        display: flex; /* Enable flexbox layout */
-        justify-content: center; /* Horizontally center content */
-        align-items: center; /* Vertically center content */
-        height: 100vh; 
-      }
-     
+        .btn{
+            border-radius: 10px; /* เปลี่ยนจาก 10% เป็น 10px */
+            margin: 4%;
+            width: 100px;
+        }
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .form-floating {
+            border-radius: 10px; /* เปลี่ยนจาก 10% เป็น 10px */
+            margin: 4%;
+        }
+
+        .form-signin {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* เพิ่มเอฟเฟกต์เมื่อเม้าส์ hover ที่ปุ่ม Sign in */
+        .btn-primary:hover {
+            background-color: #004085; /* เปลี่ยนสีเมื่อ hover */
+            border-color: #004085; /* เปลี่ยนสีขอบเมื่อ hover */
+        }
+
+        /* ปรับสีของปุ่ม Sign in */
+        .btn-primary {
+            background-color: #007bff; /* สีพื้นหลัง */
+            border-color: #007bff; /* สีขอบ */
+        }
+
+        /* ปรับสีของ label */
+        label {
+            color: #007bff; /* สีข้อความ */
+        }
+
+        /* ปรับขนาดของรูปภาพโลโก้ */
+        img {
+            width: 250px; /* กำหนดความกว้าง */
+            height: auto; /* ให้ความสูงปรับตามอัตราส่วน */
+            margin-bottom: 1rem; /* เพิ่มช่องว่างด้านล่างของรูป */
+        }
     </style>
 
-    
+
+
     <!-- Custom styles for this template -->
     <!-- <link href="signin.css" rel="stylesheet"> -->
   </head>
@@ -60,7 +89,7 @@
             <input type="checkbox" value="remember-me"> Remember me
           </label>
         </div>
-        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+        <button class="w-90 btn btn-primary" type="submit" >Sign in</button>
         <!-- <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p> -->
       </form>
     </main>

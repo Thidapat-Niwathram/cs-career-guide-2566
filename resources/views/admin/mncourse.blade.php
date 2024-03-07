@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="d-grid gap-2">
-                    <button  class="btn btn-primary" type="button">New Course</button>
+                    <button onclick="window.location.href='{{ url('addcourse') }}'" class="btn btn-primary" type="button">New Course</button>
                 </div>
             </div>
             <div class="col-md-6">
@@ -48,8 +48,8 @@
             <td class="text-center">SC001002</td>
             <td class="text-center">Fundamentals of computer science</td>
             <td class="text-center">
-                <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline p-2">View</a>
-                <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline p-2">Edit</a>
+                <a href="{{ route('viewcourse') }}" class="font-medium text-blue-600 dark:text-blue-500 hover:underline p-2">View</a>
+                <a href="{{ route('editcoursesoftsk') }}" class="font-medium text-blue-600 dark:text-blue-500 hover:underline p-2">Edit</a>
                 <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline p-2">Delete</a>
             </td>
         </tr>

@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="d-grid gap-2">
-                    <button  class="btn btn-primary" type="button">New Career</button>
+                    <button  onclick="window.location.href='{{ url('addcareer') }}'" class="btn btn-primary" type="button">New Career</button>
                 </div>
             </div>
             <div class="col-md-6">
@@ -48,8 +48,8 @@
             <td class="text-center">Developer</td>
             <td class="text-center">Front-end Developer</td>
             <td class="text-center">
-                <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline p-2">View</a>
-                <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline p-2">Edit</a>
+                <a href="{{ route('viewcareer') }}" class="font-medium text-blue-600 dark:text-blue-500 hover:underline p-2">View</a>
+                <a href="{{ route('editcareer') }}" class="font-medium text-blue-600 dark:text-blue-500 hover:underline p-2">Edit</a>
                 <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline p-2">Delete</a>
             </td>
         </tr>
@@ -57,8 +57,8 @@
             <td class="text-center">Designer</td>
             <td class="text-center">UX/UI Designer</td>
             <td class="text-center">
-                <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline p-2">View</a>
-                <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline p-2">Edit</a>
+                <a href="{{ route('viewcareer') }}" class="font-medium text-blue-600 dark:text-blue-500 hover:underline p-2">View</a>
+                <a href="{{ route('editcareer') }}" class="font-medium text-blue-600 dark:text-blue-500 hover:underline p-2">Edit</a>
                 <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline p-2">Delete</a>
             </td>
         </tr>

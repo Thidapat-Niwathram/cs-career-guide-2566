@@ -17,12 +17,10 @@
         <tr class="text-center">
             <th>ทักษะ</th>
             <th>ระดับทักษะ</th>
-            <th>ระดับของคุณ</th>
         </tr>
         <tr>
             <td class="text-center">Python</td>
             <td class="text-center">2</td>
-            <td class="text-center">1</td>
 
         </tr>
     </table>

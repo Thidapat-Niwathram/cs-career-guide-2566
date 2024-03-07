@@ -55,33 +55,33 @@ Route::get('/grade', function () {
     return view('student\grade');
 })->name('grade');
 
-//Route::get('/dashboard', function () {
-//    return view('admin\dashboard');
-//})->name('dashboard');
+Route::get('/dashboard', function () {
+    return view('admin\dashboard');
+})->name('dashboard');
 
-//Route::get('/mnaccount', function () {
-//    return view('admin\mnaccount');
-//})->name('mnaccount');
+Route::get('/mnaccount', function () {
+    return view('admin\mnaccount');
+})->name('mnaccount');
 
-//Route::get('/mncareer', function () {
-//    return view('admin\mncareer');
-//})->name('mncareer');
-//
-//Route::get('/mncourse', function () {
-//    return view('admin\mncourse');
-//})->name('mncourse');
-//
-//Route::get('/mnsoftskill', function () {
-//    return view('admin\mnsoftskill');
-//})->name('mnsoftskill');
+Route::get('/mncareer', function () {
+    return view('admin\mncareer');
+})->name('mncareer');
 
-//Route::get('/mntechskill', function () {
-//    return view('admin\mntechskill');
-//})->name('mntechskill');
-//
-//Route::get('/mnhardskill', function () {
-//    return view('admin\mnhardskill');
-//})->name('mnhardskill');
+Route::get('/mncourse', function () {
+    return view('admin\mncourse');
+})->name('mncourse');
+
+Route::get('/mnsoftskill', function () {
+    return view('admin\mnsoftskill');
+})->name('mnsoftskill');
+
+Route::get('/mntechskill', function () {
+    return view('admin\mntechskill');
+})->name('mntechskill');
+
+Route::get('/mnhardskill', function () {
+    return view('admin\mnhardskill');
+})->name('mnhardskill');
 
 Route::get('/qt2', function () {
     return view('student\question2');
@@ -94,3 +94,43 @@ Route::get('/qt3', function () {
 Route::get('/qt4', function () {
     return view('student\question4');
 })->name('question4');
+
+Route::get('/viewcareer', function () {
+    return view('admin\viewcareer');
+})->name('viewcareer');
+
+Route::get('/addcareer', function () {
+    return view('admin\addcareer');
+})->name('addcareer');
+
+Route::get('/careeraddsoftsk', function () {
+    return view('admin\careeraddsoftsk');
+})->name('careeraddsoftsk');
+
+Route::get('/careeraddhardsk', function () {
+    return view('admin\careeraddhardsk');
+})->name('careeraddhardsk');
+
+Route::get('/editcareer', function () {
+    return view('admin\editcareer');
+})->name('editcareer');
+
+Route::get('/editcareerhardsk', function () {
+    return view('admin\editcareerhardsk');
+})->name('editcareerhardsk');
+
+Route::get('/editcareersoftsk', function () {
+    return view('admin\editcareersoftsk');
+})->name('editcareersoftsk');
+
+Route::get('/editcoursehardsk', function () {
+    return view('admin\editcoursehardsk');
+})->name('editcoursehardsk');
+
+Route::get('/editcoursesoftsk', function () {
+    return view('admin\editcoursesoftsk');
+})->name('editcoursesoftsk');
+
+Route::get('/viewcourse', function () {
+    return view('admin\viewcourse');
+})->name('viewcourse');
