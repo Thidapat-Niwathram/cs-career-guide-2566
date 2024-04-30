@@ -1,6 +1,6 @@
 @extends('layout.menuadmin')
 @section('pagetitle')
-    <h4 class="page-title pull-left">Edit Soft Skill Of Course</h4>
+    <h4 class="page-title pull-left">Add Course Of Hard Skill</h4>
 @endsection
 @section('content')
     <style>
@@ -12,14 +12,15 @@
             margin: auto;
             display: block;
         }
+
     </style>
     <table id="courseTable" class="container p-2 table table-bordered border-primary table-light">
         <tr class="text-center">
-            <th>Soft Skill</th>
+            <th>Course</th>
             <th>Weight</th>
         </tr>
         <tr class="text-center">
-            <td><a>Communication</a></td>
+            <td><a>Tester</a></td>
             <td>
                 <div class="col-sm-10">
                     <select class="form-select">
@@ -34,8 +35,8 @@
 
     </table>
     <div class="d-flex justify-content-between">
-        <button class="btn btn-primary" type="button" onclick="window.location.href='{{ url('editcourse') }}'">Back</button>
+        <button class="btn btn-primary" type="button" onclick="window.location.href='{{ url('addhardskill') }}'">Back</button>
         <div></div>
-        <button class="btn btn-primary" type="button" onclick="window.location.href='{{ url('editcoursehardsk') }}'">Next</button>
+        <button class="btn btn-primary" type="button" onclick="window.location.href='{{ url('addcareerofhk') }}'">Next</button>
     </div>
 @endsection

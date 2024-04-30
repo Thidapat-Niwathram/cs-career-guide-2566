@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="d-grid gap-2">
-                    <button  class="btn btn-primary" type="button">New Account</button>
+                    <button onclick="window.location.href='{{ url('addstd') }}'" class="btn btn-primary" type="button">New Account</button>
                 </div>
             </div>
             <div class="col-md-6">

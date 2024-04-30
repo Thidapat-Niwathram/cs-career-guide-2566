@@ -49,7 +49,7 @@
             <td class="text-center">Fundamentals of computer science</td>
             <td class="text-center">
                 <a href="{{ route('viewcourse') }}" class="font-medium text-blue-600 dark:text-blue-500 hover:underline p-2">View</a>
-                <a href="{{ route('editcoursesoftsk') }}" class="font-medium text-blue-600 dark:text-blue-500 hover:underline p-2">Edit</a>
+                <a href="{{ route('editcourse') }}" class="font-medium text-blue-600 dark:text-blue-500 hover:underline p-2">Edit</a>
                 <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline p-2">Delete</a>
             </td>
         </tr>

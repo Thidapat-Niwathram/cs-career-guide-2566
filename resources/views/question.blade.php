@@ -35,20 +35,19 @@
   .text-center{
     width: 150px;
   }
-  .back{
-      margin-left: 1rem;
-  }
     </style>
 </head>
 <body>
 <nav class="navbar navbar-dark bg-dark">
-    <i  onclick="window.history.back()" class="material-icons">arrow_back</i>
 
-{{--    <img id="back" onclick="window.history.back()" src="images/left-arrow.png" alt="">--}}
+    <a href="javascript:history.back()" class="navbar-brand">
+        <i class="ti-angle-left" style="color: white; margin-left: 2rem;"></i>
+    </a>
+    {{--    <img id="back" onclick="window.history.back()" src="images/left-arrow.png" alt="">--}}
         <a class="navbar-brand" href="#">
             <img src="image/cplogo2.png" alt="" width="250" height="70">
         </a>
-    </div>
+
 </nav>
 
 

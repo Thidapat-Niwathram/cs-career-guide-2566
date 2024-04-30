@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="d-grid gap-2">
-                    <button  class="btn btn-primary" type="button">New Soft Skill</button>
+                    <button onclick="window.location.href='{{ url('addhardskill') }}'" class="btn btn-primary" type="button">New Hard Skill</button>
                 </div>
             </div>
             <div class="col-md-6">

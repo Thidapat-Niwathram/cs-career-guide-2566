@@ -60,32 +60,10 @@
                 <nav>
                     <ul class="metismenu" id="menu">
                         <li class="active">
-                            <a href="{{ url('/homestd1') }}" aria-expanded="true"><i class="ti-dashboard"></i><span>Home</span></a>
+                            <a href="{{ url('/homestd1') }}" aria-expanded="true"><i class="ti-home"></i><span>Home</span></a>
 
                         </li>
-{{--                        <li class="active">--}}
-{{--                            <a href="{{ url('/homestd') }}" aria-expanded="true"><i class="ti-dashboard"></i><span>Home</span></a>--}}
 
-{{--                        </li>--}}
-{{--                        <li>--}}
-{{--                            <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layout-sidebar-left"></i><span>Information</span></a>--}}
-{{--                            <ul class="collapse">--}}
-{{--                                <li><a href="{{ url('/editinfo') }}">Information</a></li>--}}
-{{--                                <li><a href="{{ url('/grade') }}">Grade</a></li>--}}
-{{--                            </ul>--}}
-{{--                        </li>--}}
-{{--                        <li>--}}
-{{--                            <a href="{{ url('/career') }}" aria-expanded="true"><i class="ti-pie-chart"></i><span>Grade</span></a>--}}
-
-{{--                        </li>--}}
-{{--                        <li>--}}
-{{--                            <a href="{{ url('/skillstd') }}" aria-expanded="true"><i class="ti-palette"></i><span>Skills</span></a>--}}
-{{--                            <ul class="collapse">--}}
-{{--                                <li><a href="#">Soft Skills</a></li>--}}
-{{--                                <li><a href="#">Hard Skills</a></li>--}}
-{{--                                <li><a href="#">Technical Skills</a></li>--}}
-{{--                            </ul>--}}
-{{--                        </li>--}}
 
 
 

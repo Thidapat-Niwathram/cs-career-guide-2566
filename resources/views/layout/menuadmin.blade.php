@@ -59,26 +59,26 @@
             <div class="menu-inner">
                 <nav>
                     <ul class="metismenu" id="menu">
+{{--                        <li class="active">--}}
+{{--                            <a href="{{ url('/dashboard') }}" aria-expanded="true"><i class="ti-dashboard"></i><span>Dashboard</span></a>--}}
+
+{{--                        </li>--}}
                         <li class="active">
-                            <a href="{{ url('/dashboard') }}" aria-expanded="true"><i class="ti-dashboard"></i><span>Dashboard</span></a>
+                            <a href="{{ url('/mnaccount') }}" aria-expanded="true"><i class="ti-user"></i><span>Manage Account</span></a>
 
                         </li>
                         <li class="active">
-                            <a href="{{ url('/mnaccount') }}" aria-expanded="true"><i class="ti-dashboard"></i><span>Manage Account</span></a>
-
+                            <a href="{{ url('/mncareer') }}" aria-expanded="true"><i class="ti-archive"></i><span>Manage Career</span></a>
                         </li>
                         <li class="active">
-                            <a href="{{ url('/mncareer') }}" aria-expanded="true"><i class="ti-dashboard"></i><span>Manage Career</span></a>
-                        </li>
-                        <li class="active">
-                            <a href="{{ url('/mncourse') }}" aria-expanded="true"><i class="ti-dashboard"></i><span>Manage Course</span></a>
+                            <a href="{{ url('/mncourse') }}" aria-expanded="true"><i class="ti-book"></i><span>Manage Course</span></a>
                         </li>
 
                         <li>
-                            <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layout-sidebar-left"></i><span>Mange Skill</span></a>
+                            <a href="javascript:void(0)" aria-expanded="true"><i class="ti-bar-chart-alt"></i><span>Mange Skill</span></a>
                             <ul class="collapse">
                                 <li><a href="{{ url('/mnsoftskill') }}">Soft Skill</a></li>
-                                <li><a href="{{ url('/mntechskill') }}">Technical Skill</a></li>
+{{--                                <li><a href="{{ url('/mntechskill') }}">Technical Skill</a></li>--}}
                                 <li><a href="{{ url('/mnhardskill') }}">Hard Skill</a></li>
                             </ul>
                         </li>

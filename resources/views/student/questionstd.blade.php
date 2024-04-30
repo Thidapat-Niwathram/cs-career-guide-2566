@@ -47,7 +47,7 @@
             <th>3</th>
         </tr>
         <tr>
-            <td class="question">1. ฉันไม่ใช้ความรู้สึกในการตัดสินใจ</td>
+            <td class="question" >1. ฉันไม่ใช้ความรู้สึกในการตัดสินใจ</td>
             <td class="text-center"><input type="radio" name="row-1" data-col="1"></td>
             <td class="text-center"><input type="radio" name="row-1" data-col="2"></td>
             <td class="text-center"><input type="radio" name="row-1" data-col="3"></td>
